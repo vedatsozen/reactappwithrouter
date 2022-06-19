@@ -1,0 +1,95 @@
+body {
+  background-color: azure;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+  margin: auto;
+  word-spacing: 20px;
+  text-decoration: none;
+}
+
+ul li {
+
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  
+}
+
+ul li:hover {
+  color: orangered;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:darkred;
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+a:hover {
+  color: white;
+  display: block;
+  padding: 5px;
+  background-color: darkred;
+}
+
+h1#slogan {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  height:fit-content;
+  width:fit-content;
+  background-color: gold;
+  color:darkred;
+  padding: 10px;
+  font-size:100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+h2#slogan2 {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  height:fit-content;
+  width:100%;
+  background-color: darkred;
+  color:gold;
+  padding: 10px;
+  font-size:50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+#fourdiv {
+  display: flex;
+  flex-direction: row;
+  height:fit-content;
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+#one, #two, #three, #four {
+
+  margin: auto;
+  height:100%;
+  width: 23%;
+  padding: 10px;
+  text-align: justify;
+  font-size: 16px;
+  background-color: darkred;
+  color: beige;
+  border-radius: 3px;
+}
+
